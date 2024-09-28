@@ -1,0 +1,24 @@
+.filterUslist {
+    display: flex;
+
+    flex-direction: column;
+    background-color: #c5ffe2;
+    border-radius: 5px;
+    margin: 5px;
+    padding: 5px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+    color: #1d4531;
+    height: 80vh;
+}
+
+.ulFilter {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: 30px;
+}
+
+.liFilter {
+    padding: 5px;
+}

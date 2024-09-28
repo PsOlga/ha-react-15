@@ -1,23 +1,22 @@
-import logo from './logo.svg';
+import UserList from './components/UserList';
 import './App.css';
 
 function App() {
+  
+  const allUsers = [
+    { id: "1", name: "John Doe" },
+    { id: "2", name: "Jane Smith" },
+    { id: "3", name: "Alex Johnson" },
+    { id: "4", name: "Emma Brown" },
+    { id: "5", name: "Michael White" },
+    { id: "6", name: "Sophia Black" },
+    { id: "7", name: "Daniel Green" },
+    { id: "8", name: "Olivia Blue" }
+  ];
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <UserList usersArray={allUsers}/>
     </div>
   );
 }

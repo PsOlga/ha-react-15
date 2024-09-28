@@ -1,0 +1,22 @@
+.filterUs {
+    display: flex;
+    /* justify-content: center; */
+    width: 100%;
+
+}
+
+.styleInput {
+    border: none;
+    border-bottom: 2px solid green;
+    width: 90%;
+    margin: 30px;
+    outline: 1px solid rgb(207, 207, 207);
+    border-radius: 3px;
+    padding: 10px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+    height: 30px;
+}
+
+.styleInput::placeholder {
+    padding: 15px 10px;
+}
